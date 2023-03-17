@@ -1,0 +1,58 @@
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding: 25% 10% 30% 5%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content:'';
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.menuPrincipal{
+    background-color: transparent !important;
+    transition: 2s;
+}
+
+.menuSecundario{
+    background-color: black;
+    transition: 2s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    .social-links li:last-child {
+    margin-right: 0;
+    }
+    
+    .social-links a {
+    color: #fff;
+    text-decoration: none;
+    }
